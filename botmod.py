@@ -9,7 +9,7 @@ from telegram.error import TelegramError
 # ========== НАСТРОЙКИ ==========
 BOT_TOKEN = "8252427456:AAHy6BciCd7zJKI_7oqclHOUPfjneVhfaq4"
 CHANNEL_ID = "-1003157439297"  # ID вашего канала
-ADMIN_IDS = [7817856373]  # Ваш ID
+ADMIN_IDS = [7817856373, 966731654]  # Ваш ID
 
 # ========== НАСТРОЙКА ЛОГИРОВАНИЯ ==========
 logging.basicConfig(
@@ -517,3 +517,4 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"❌ Критическая ошибка: {e}")
         logger.critical(f"Критическая ошибка: {e}", exc_info=True)
+
